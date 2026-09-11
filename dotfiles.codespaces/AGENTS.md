@@ -1,8 +1,9 @@
 # Engineering Rules
 
 ## Worktrees
-- Always prefix worktree folder names with the repository name, for example `example_my-branch`.
-- This requirement overrides broader workspace examples that use only the branch name.
+- Create all worktrees under `./worktrees/`.
+- Name each worktree directory `<repository>_<branch>`, for example `./worktrees/example_my-branch`.
+- These requirements override broader workspace examples that use another path or only the branch name.
 
 ## Think Before Acting
 - State assumptions explicitly before changing code. If uncertain, ask.
